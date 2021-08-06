@@ -1,11 +1,15 @@
 // import Head from 'next/head'
 // import Image from 'next/image'
 import {Button} from '@chakra-ui/react'
+import { DarkModeSwitch } from '../src/components/DarkModeSwitch'
 
 export default function Home() {
   return (
+    <div>
+      <DarkModeSwitch/>
       <div variant="solid">
-        <Button color='blue.100' bgColor='crimson' size='lg'>Installed</Button>
+        <Button color='blue.100' bgColor='darkgray' size='lg'>yodle de</Button>
       </div>
+    </div>
   )
 }
