@@ -3,15 +3,18 @@
 
 import { Flex } from '@chakra-ui/layout';
 import { Button } from '@chakra-ui/react';
-import { DarkModeSwitch } from '../src/components/DarkModeSwitch';
+import Navbar from '../src/components/nav';
+// import { DarkModeSwitch } from '../src/components/DarkModeSwitch';
 
 export default function Home() {
   return (
-    <Flex w="50%" wrap="nowrap" justify="space-between">
+    <>
+      <Flex>
+        <Navbar />
+      </Flex>
       <Button variant="solid" color="blue.100" bgColor="darkgray" size="lg">
         yoddle de
       </Button>
-      <DarkModeSwitch />
-    </Flex>
+    </>
   );
 }
