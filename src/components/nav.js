@@ -1,4 +1,4 @@
-import { Flex } from '@chakra-ui/layout';
+import { Flex, Heading, Text } from '@chakra-ui/layout';
 
 const Navbar = () => (
   <Flex
@@ -9,20 +9,17 @@ const Navbar = () => (
     height="80px"
     justify="space-between"
     align="center"
-    padding="0, 2rem"
+    pl="2rem"
+    pr="2rem"
   >
-    <div>NXT</div>
-    <div>Home About Contact</div>
+    <Heading fontSize="2xl">Sleep Deep Yoga</Heading>
+
+    <Flex fontSize="lg">
+      <Text>Home</Text>
+      <Text pl="2rem">About</Text>
+      <Text pl="2rem">Contact</Text>
+    </Flex>
   </Flex>
 );
 
 export default Navbar;
-
-// const Nav = styled.nav`
-//   height: 80px;
-//   background: #000;
-//   display: flex;
-//   justify-content: space-between;
-//   align-items: center;
-//   color: #fff;
-// `;
