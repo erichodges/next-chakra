@@ -3,7 +3,7 @@ import { Flex, Heading, Text } from '@chakra-ui/layout';
 const Navbar = () => (
   <Flex
     w="100vw"
-    absolute
+    pos="absolute"
     top="0"
     left="0"
     height="80px"
@@ -11,6 +11,7 @@ const Navbar = () => (
     align="center"
     pl="2rem"
     pr="2rem"
+    zIndex="1"
   >
     <Heading fontSize="2xl">Sleep Deep Yoga</Heading>
 
