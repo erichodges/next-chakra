@@ -13,7 +13,9 @@ const Navbar = () => (
     pr="2rem"
     zIndex="1"
   >
-    <Heading fontSize="2xl">Sleep Deep Yoga</Heading>
+    <Heading as="h2" size="lg">
+      Sleep Deep Yoga
+    </Heading>
 
     <Flex fontSize="lg">
       <Text>Home</Text>
