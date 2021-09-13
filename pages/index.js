@@ -23,7 +23,7 @@ export default function Home() {
           textAlign="center"
         >
           <Heading as="h1" size="4xl" w="100vw" mt="20%" sx={{ zIndex: '2' }}>
-            header text
+            A Personalized Approach to Insomnia
           </Heading>
         </Flex>
         <Hero />
