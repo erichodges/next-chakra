@@ -4,8 +4,8 @@
 // import { Button } from '@chakra-ui/react';
 import { Flex, Heading } from '@chakra-ui/layout';
 
-import Hero from '../src/components/Hero';
-import Navbar from '../src/components/Navbar';
+import Hero from '../components/Hero';
+import Navbar from '../components/Navbar';
 
 // import { DarkModeSwitch } from '../src/components/DarkModeSwitch';
 
