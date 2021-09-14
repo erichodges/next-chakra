@@ -14,16 +14,16 @@ export default function Hero() {
         justifyContent="center"
         textAlign="center"
       >
-        <Heading as="h1" size="4xl" w="100vw" mt="20%" sx={{ zIndex: '2' }}>
+        <Heading as="h1" size="4xl" w="100vw" mt="30%" sx={{ zIndex: '2' }}>
           A Personalized Approach to Insomnia
         </Heading>
       </Flex>
       <div pos="relative" sx={{ zIndex: '-1' }}>
         <Image
-          src="https://res.cloudinary.com/dn3baky3u/image/upload/v1580246844/gatsby-cloudinary/evora-gt-side.jpg"
+          src="https://res.cloudinary.com/dn3baky3u/image/upload/v1631656911/SDY/ocean.jpg"
           alt="car"
-          width={2400}
-          height={1200}
+          width={7149}
+          height={4771}
         />
       </div>
     </section>
