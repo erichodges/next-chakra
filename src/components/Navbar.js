@@ -17,7 +17,7 @@ const Navbar = () => (
       Sleep Deep Yoga
     </Heading>
 
-    <Flex fontSize="lg">
+    <Flex fontSize="xl">
       <Text>Home</Text>
       <Text pl="2rem">About</Text>
       <Text pl="2rem">Contact</Text>
